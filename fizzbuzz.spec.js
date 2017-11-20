@@ -16,5 +16,8 @@ describe('printIt', () => {
     it('should print the integer 5 as string \"Buzz\"', () => {
         expect(printIt(5)).toEqual("Buzz");
     });
+    it('should print the integer 15 as string \"FizzBuzz\"', () => {
+        expect(printIt(15)).toEqual("FizzBuzz");
+    });
 });
 
